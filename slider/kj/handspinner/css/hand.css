@@ -1,0 +1,65 @@
+/****************************************************************************
+KJ hand spinner
+****************************************************************************/
+::-webkit-scrollbar
+{
+  display: none;
+}
+
+html, body
+{
+  background-color: #101B1F;
+}
+
+.kj-hand .Pub
+{
+	background: #101B1F url(../img/bg-kj-handspinner.jpg) no-repeat  center center;
+	background-size: 100%;
+	position: absolute;
+	max-width: 1080px;
+	max-height:1920px;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+}
+
+.kj-ete .logo-kj
+{
+	margin: 3% auto 0;
+  animated-delay: 0.5s;
+}
+
+.img-bottom
+{
+  margin-top: 86%;
+  animation-delay: 1s;
+}
+
+.img-gauche
+{
+  animation-delay: 1.5s;
+}
+
+.hand
+{
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+}
+
+.img-droite
+{
+  animation-delay: 2s;
+}
+
+.anim
+{
+  animation-delay: 2.5s;
+}
+
+.txt-hand
+{
+  display: inline;
+  margin-bottom: 5%;
+  animation-delay: 2.5s;
+}

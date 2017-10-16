@@ -1,0 +1,26 @@
+.cb-slideshow li:nth-child(1) object
+{
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}
+
+.cb-slideshow li:nth-child(2) object
+{
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+.cb-slideshow li:nth-child(3) object
+{
+  -webkit-animation-delay: 8s;
+  -moz-animation-delay: 8s;
+  -o-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+  animation-delay: 8s;
+}

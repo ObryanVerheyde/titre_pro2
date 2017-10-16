@@ -1,0 +1,42 @@
+/****************************************************************************
+UNDIZ 1
+****************************************************************************/
+::-webkit-scrollbar
+{
+  display: none;
+}
+
+.undiz1 .Pub
+{
+	background: transparent url(../img/bg-undiz.jpg) no-repeat  center center;
+	background-size: 100%;
+	position: absolute;
+	max-width: 1080px;
+	max-height:1920px;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+
+.undiz1 .logo-undiz-pool
+{
+	position: absolute;
+	top: 40.5%;
+	left: 19.4%;
+	animation-delay: 0.5s;
+}
+
+.undiz1 .logo-undiz-picto
+{
+	position: absolute;
+	bottom: 14.375%;
+	right:  3.52%;
+	animation-delay: 0.2s;
+}
+
+.undiz1 .logo-undiz-lets
+{
+	margin-bottom: 6.56%;
+	animation-delay: 1s;
+}

@@ -1,0 +1,52 @@
+/****************************************************************************
+KJ LEGO
+****************************************************************************/
+::-webkit-scrollbar
+{
+	display: none;
+}
+
+.kj-lego .Pub
+{
+	background: transparent url(../img/bg-lego.jpg) no-repeat  center center;
+	background-size: 100%;
+	position: absolute;
+	max-width: 1080px;
+	max-height:1920px;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+}
+
+.kj-lego .nouveau
+{
+	position: absolute;
+	left:0;
+	top: 0;
+	z-index: 10;
+}
+
+.kj-lego .logo-lego
+{
+	position: relative;
+	z-index: 100:;
+	margin: 15% auto 0;
+	animation-delay: 1s;
+}
+
+.img-bottom
+{
+	margin-top: 95%;
+}
+
+.kj-lego .txt-lego
+{
+	margin: 0 auto 5%;
+	animation-delay: 1.5s;
+}
+
+.kj-lego .logo-kj
+{
+	margin: 0 auto 10%;
+	animation-delay: 2.5s;
+}

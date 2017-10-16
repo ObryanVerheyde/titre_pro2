@@ -1,0 +1,88 @@
+/****************************************************************************
+miam template 1
+****************************************************************************/
+::-webkit-scrollbar
+{
+  display: none;
+}
+
+.miam1 .Pub
+{
+	background-size: 100%;
+	position: absolute;
+	max-width: 1080px;
+	max-height:1920px;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+}
+
+.miam1 .citation p
+{
+	font-size: 74px;
+	line-height: 92px;
+	padding: 7.18% 10.50% 0 ;
+	text-align: center;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-style: italic;
+  animation-delay: 1s;
+}
+
+.miam1 .citation p.auteur
+{
+	font-size: 48px;
+	line-height: 50px;
+	padding: 2% 12.03% ;
+	font-style: normal;
+	color: #f1c3b5;
+  animation-delay: 1s;
+}
+
+.miam1 .img-bottom
+{
+	left: 10.50%;
+	right: 10.50%;
+	bottom: 5.78%;
+  animation-delay: 2.5s;
+}
+
+.miam1 .img-bottom p
+{
+	font-size: 48px;
+	padding-top: 40px;
+	text-transform: uppercase;
+	letter-spacing: 25px;
+	font-weight: 300;
+}
+
+.miam1 .img-bottom .logo-miam
+{
+	position: relative;
+	z-index: 100;
+  margin-top: 83.45%;
+  animation-delay: 4s;
+  animation-duration: 1.5s;
+}
+
+.miam1 .img-bottom::before
+{
+	content: "";
+	width: 100%;
+	height: 4px;
+	display: block;
+	position: absolute;
+	margin-top: 92.7%;
+	background: url(../img/tiret.png)no-repeat center center;
+  animation-delay: 3s;
+}
+
+.text-miam
+{
+  animation-delay: 5s;
+}
+
+.crepe .Pub
+{
+	background: transparent url(../img/bg-crepes.jpg) no-repeat  center center;
+}

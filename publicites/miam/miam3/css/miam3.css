@@ -1,0 +1,58 @@
+/****************************************************************************
+miam template 3 - appli
+****************************************************************************/
+::-webkit-scrollbar
+{
+  display: none;
+}
+
+.miam3 .Pub
+{
+	background-size: 100%;
+	position: absolute;
+	max-width: 1080px;
+	max-height:1920px;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+}
+
+.miam3.appli .Pub
+{
+	background: transparent url(../img/bg-appli.jpg) no-repeat  center center;
+}
+
+.miam3 .miam3-txt
+{
+	padding: 0 auto ;
+	text-align: center;
+}
+
+.miam3 .miam3-txt p
+{
+	font-size: 80px;
+	line-height: 90px;
+	font-weight: 400;
+}
+
+.miam3 .miam3-txt p b
+{
+	font-weight: 900;
+  margin-left: 21px;
+}
+
+.miam3 .logo-miam
+{
+	margin : 10% auto 7%;
+  animation-delay: 0.5s;
+}
+
+.txt1
+{
+  animation-delay: 1s;
+}
+
+.txt2
+{
+  animation-delay: 1.5s;
+}

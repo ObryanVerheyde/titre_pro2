@@ -1,0 +1,45 @@
+/****************************************************************************
+KJ été
+****************************************************************************/
+::-webkit-scrollbar
+{
+  display: none;
+}
+
+html, body
+{
+  background-color: #101B1F;
+}
+
+.kj-ete .Pub
+{
+	background: #101B1F url(../img/bg-kj.jpg) no-repeat  center center;
+	background-size: 100%;
+	position: absolute;
+	max-width: 1080px;
+	max-height:1920px;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+}
+
+.anim
+{
+	animation-delay: 5.5s;
+}
+
+.logo-kj
+{
+	animation-delay: 6s;
+}
+
+.kj-ete .kj-ete-img
+{
+	margin-top: 90%;
+	animation-delay: 6.5s;
+}
+
+.img-bottom
+{
+	animation-delay: 7s;
+}
